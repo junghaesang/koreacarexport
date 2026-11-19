@@ -180,3 +180,33 @@
   from = "/car/cf438526"
   to = "/stock/"
   status = 301
+
+[[redirects]]
+  from = "/car/cf496335"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf504065"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf516890"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf516883"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf516879"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/js958102"
+  to = "/stock/"
+  status = 301
