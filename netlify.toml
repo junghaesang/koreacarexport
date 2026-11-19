@@ -110,3 +110,13 @@
   from = "/car/cf386864"
   to = "/stock/"
   status = 301
+
+[[redirects]]
+  from = "/car/cf347571"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf411104"
+  to = "/stock/"
+  status = 301
