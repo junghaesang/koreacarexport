@@ -120,3 +120,63 @@
   from = "/car/cf411104"
   to = "/stock/"
   status = 301
+
+[[redirects]]
+  from = "/car/cf347566"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf347568"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf356185"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf388746"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf388794"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf399845"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf399853"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf411101"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf411105"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf411108"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf423379"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf438526"
+  to = "/stock/"
+  status = 301
