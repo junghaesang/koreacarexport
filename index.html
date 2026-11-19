@@ -2104,7 +2104,7 @@ r();rst();
     }
     v.addEventListener('ended', next);
     th.addEventListener('click', function (e) { var b = e.target.closest('.sc-thumb'); if (b) { show(+b.dataset.i); var st = document.querySelector('.sc-grid'); if (st && st.getBoundingClientRect().top < 0) st.scrollIntoView({ behavior: 'smooth', block: 'start' }); } });
-    document.getElementById('scCount').textContent = '(' + SALE_CARS.length + ')';
+    document.getElementById('scCount').textContent = '(' + SALE_CARS.length + ')'; (function(){ var lg=(document.documentElement.lang||'en').slice(0,2); var T={en:['Full stock list','cars →'],ko:['전체 재고 목록','대 →'],ru:['Полный список','авто →']}; var t=T[lg]||T.en; var a=document.createElement('a'); a.className='sc-all'; a.href='/stock/'; a.style.cssText='display:block;margin:14px 0 4px;font-weight:700;color:inherit;text-decoration:underline'; a.textContent=t[0]+' →'; document.getElementById('scThumbs').appendChild(a); fetch('/stock/').then(function(r){return r.text();}).then(function(h){var n=(h.match(/<tr data-krw/g)||[]).length; if(n){a.textContent=t[0]+' ('+n+' '+t[1]; if(lg==='ko'||lg==='ru'){a.textContent=t[0]+' ('+n+t[1].replace(' →',')')+' →';} else {a.textContent=t[0]+' ('+n+' cars) →';} document.getElementById('scCount').textContent='('+SALE_CARS.length+' / '+n+')';}}).catch(function(){}); })();
     show(0);
   })();
 </script>
