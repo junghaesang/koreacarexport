@@ -1,2 +1,112 @@
 [build]
   functions = "netlify/functions"
+
+[[redirects]]
+  from = "/car/cf399850"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf411106"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf411102"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf411100"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf411099"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf399852"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf399847"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf388749"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf386868"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf347573"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf347572"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf344712"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf347570"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf347569"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf347567"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf343532"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf326474"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf311349"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf331951"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf399851"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf399848"
+  to = "/stock/"
+  status = 301
+
+[[redirects]]
+  from = "/car/cf386864"
+  to = "/stock/"
+  status = 301
