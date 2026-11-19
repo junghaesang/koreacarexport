@@ -1576,7 +1576,7 @@ table.rm-table td.total{ font-weight:800; color:#0e5a45; }
     <ul class="nav">
       <li><a href="#process" data-i18n="nav_process">Process</a></li>
       <li><a href="#stock-home" data-i18n="nav_forsale">Cars</a></li>
-      <li><a href="/stock/" style="font-weight:700">Stock (426)</a></li>
+      <li><a href="/stock/" style="font-weight:700">Stock (<span id="navStockN">375</span>)</a></li>
       <li><a href="#finder" data-i18n="nav_finder">Find a Car</a></li>
       <li><a href="#report-mock" data-i18n="nav_report">Report</a></li>
       <li><a href="#pricing" data-i18n="nav_pricing">Pricing</a></li>
@@ -2104,7 +2104,7 @@ r();rst();
     }
     v.addEventListener('ended', next);
     th.addEventListener('click', function (e) { var b = e.target.closest('.sc-thumb'); if (b) { show(+b.dataset.i); var st = document.querySelector('.sc-grid'); if (st && st.getBoundingClientRect().top < 0) st.scrollIntoView({ behavior: 'smooth', block: 'start' }); } });
-    document.getElementById('scCount').textContent = '(' + SALE_CARS.length + ')'; (function(){ var lg=(document.documentElement.lang||'en').slice(0,2); var T={en:['Full stock list','cars →'],ko:['전체 재고 목록','대 →'],ru:['Полный список','авто →']}; var t=T[lg]||T.en; var a=document.createElement('a'); a.className='sc-all'; a.href='/stock/'; a.style.cssText='display:block;margin:14px 0 4px;font-weight:700;color:inherit;text-decoration:underline'; a.textContent=t[0]+' →'; document.getElementById('scThumbs').appendChild(a); fetch('/stock/').then(function(r){return r.text();}).then(function(h){var n=(h.match(/<tr data-krw/g)||[]).length; if(n){a.textContent=t[0]+' ('+n+' '+t[1]; if(lg==='ko'||lg==='ru'){a.textContent=t[0]+' ('+n+t[1].replace(' →',')')+' →';} else {a.textContent=t[0]+' ('+n+' cars) →';} document.getElementById('scCount').textContent='('+SALE_CARS.length+' / '+n+')';}}).catch(function(){}); })();
+    document.getElementById('scCount').textContent = '(' + SALE_CARS.length + ')'; (function(){ var lg=(document.documentElement.lang||'en').slice(0,2); var T={en:['Full stock list','cars →'],ko:['전체 재고 목록','대 →'],ru:['Полный список','авто →']}; var t=T[lg]||T.en; var a=document.createElement('a'); a.className='sc-all'; a.href='/stock/'; a.style.cssText='display:block;margin:14px 0 4px;font-weight:700;color:inherit;text-decoration:underline'; a.textContent=t[0]+' →'; document.getElementById('scThumbs').appendChild(a); fetch('/stock/').then(function(r){return r.text();}).then(function(h){var n=(h.match(/<tr data-krw/g)||[]).length; if(n){a.textContent=t[0]+' ('+n+' '+t[1]; if(lg==='ko'||lg==='ru'){a.textContent=t[0]+' ('+n+t[1].replace(' →',')')+' →';} else {a.textContent=t[0]+' ('+n+' cars) →';} document.getElementById('scCount').textContent='('+SALE_CARS.length+' / '+n+')'; var ns=document.getElementById('navStockN'); if(ns)ns.textContent=n;}}).catch(function(){}); })();
     show(0);
   })();
 </script>
@@ -2494,7 +2494,7 @@ r();rst();
       <p data-i18n="pricing_p">The car price you see is fixed. Every other cost is passed on at actual cost, with the receipts to prove it.</p>
     </div>
     <div class="price-breakdown">
-      <ul class="fp-list" style="list-style:none;margin:0;padding:0;display:grid;gap:14px">
+      <ul class="fp-list" style="list-style:none;margin:0;padding:22px 26px;display:grid;gap:14px">
         <li data-i18n="fp_li1"><b>Fixed car price</b> — the price on each listing is final. No hidden add-ons.</li>
         <li data-i18n="fp_li2"><b>Everything else at cost</b> — local handling, shoring, optional inspection and ocean freight are charged exactly what they cost us.</li>
         <li data-i18n="fp_li3"><b>Proof included</b> — we send you the receipts and invoices for every at-cost item.</li>
