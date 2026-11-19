@@ -1678,38 +1678,58 @@ table.rm-table td.total{ font-weight:800; color:#0e5a45; }
       <p class="punch" data-i18n="journey_p">Every step links to exactly where it's explained below.</p>
     </div>
 
-    <div class="proc-grid"><div class="proc-col"><div class="proc-left">
-    <div class="gw">
-      <h3 class="gw-title" data-i18n="gw_title">Not sure where to start? Just follow these 6 steps</h3>
-      <div class="gw-step"><div class="gw-t" data-i18n="gw_a_t">Choose a car</div><p class="gw-p" data-i18n="gw_a_p">Get a list of candidates, or look at cars we have in stock right now.</p><div class="gw-btns"><a class="gw-btn gw-primary" href="#finder" data-i18n="gw_a_b1">Get my list</a><a class="gw-btn" href="#for-sale" data-i18n="gw_a_b2">See our stock</a></div></div>
-      <div class="gw-arrow" aria-hidden="true">&darr;</div>
-      <div class="gw-step"><div class="gw-t" data-i18n="gw_b_t">Check what you'll receive</div><p class="gw-p" data-i18n="gw_b_p">Open a sample list and report. Worried about the car's condition? Add an independent inspection.</p><div class="gw-btns"><a class="gw-btn gw-primary" href="#report-mock" data-i18n="gw_b_b1">See sample list</a><a class="gw-btn" href="#report-mock-insp" data-i18n="gw_b_b2">About inspection</a></div></div>
-      <div class="gw-arrow" aria-hidden="true">&darr;</div>
-      <div class="gw-step"><div class="gw-t" data-i18n="gw_c_t">Get your quote</div><p class="gw-p" data-i18n="gw_c_p">Enter the price of a car you found on Encar and we calculate the full price for you.</p><div class="gw-btns"><a class="gw-btn gw-primary" href="#report-mock-quote" data-i18n="gw_c_b">Get my quote</a></div></div>
-      <div class="gw-arrow" aria-hidden="true">&darr;</div>
-      <div class="gw-step"><div class="gw-t" data-i18n="gw_d_t">Pay with confidence</div><p class="gw-p" data-i18n="gw_d_p">See who checks your deal, and check our bank account details first.</p><div class="gw-btns"><a class="gw-btn gw-primary" href="#why" data-i18n="gw_d_b1">Why us</a><a class="gw-btn" href="#account-info" data-i18n="gw_d_b2">Bank details</a></div></div>
-      <div class="gw-arrow" aria-hidden="true">&darr;</div>
-      <div class="gw-step"><div class="gw-t" data-i18n="gw_s_t">Shipping</div><p class="gw-p" data-i18n="gw_s_p">We arrange safe loading and lashing at the port, and the car's transport within Korea to Incheon.</p></div>
-      <div class="gw-arrow" aria-hidden="true">&darr;</div>
-      <div class="gw-step"><div class="gw-t" data-i18n="gw_e_t">Track your car</div><p class="gw-p" data-i18n="gw_e_p">Enter your B/L number to see where the ship is.</p><div class="gw-btns"><a class="gw-btn gw-primary" href="#track-bl" data-i18n="gw_e_b">Track shipment</a></div></div>
-    </div>
-    </div>
-    <div class="acct-info" id="account-info">
-      <div class="acct-info-eyebrow" data-i18n="acct_eyebrow">Worried about wiring money?</div>
-      <h3 class="acct-info-h3" data-i18n="acct_h3">Our bank account details</h3>
-      <div class="acct-info-grid">
-        <div class="acct-info-row"><span class="acct-info-label" data-i18n="acct_bank_label">Bank</span><span class="acct-info-value">Hana Bank (하나은행)</span></div>
-        <div class="acct-info-row"><span class="acct-info-label" data-i18n="acct_holder_label">Account Holder</span><span class="acct-info-value">JUNG HAE SANG / JS INTERNATIONAL</span></div>
-        <div class="acct-info-row"><span class="acct-info-label" data-i18n="acct_biz_label">Business reg. no.</span><span class="acct-info-value mono">309-04-52024</span></div>
-        <div class="acct-info-row"><span class="acct-info-label" data-i18n="acct_addr_label">Address</span><span class="acct-info-value" data-i18n="val_addr">#203, 659 Jangje-ro, Gyeyang-gu, Incheon, South Korea</span></div>
-        <div class="acct-info-row"><span class="acct-info-label" data-i18n="acct_number_label">Account Number</span><span class="acct-info-value mono">311-910026-37338</span></div>
-        <div class="acct-info-row"><span class="acct-info-label" data-i18n="acct_swift_label">SWIFT BIC</span><span class="acct-info-value mono">KOEXKRSE</span></div>
-      </div>
-      <p class="acct-info-note" data-i18n="acct_note">We'll always confirm the exact amount and this account with you on WhatsApp before you transfer — never pay into a different account.</p>
-    </div>
-    </div><div class="proc-right">
+    <style>#jv{--ink:#0d2f33;--mut:#4d6b6e;--line:#cfe3e1;--card:#fff;--y:#ffe600;--hi:#0b7a75;--warn:#fff3c4;max-width:720px;margin:0 auto 28px;font-family:inherit;color:var(--ink)}#jv *{box-sizing:border-box}#jv button{font-family:inherit}
+#jv .jv-st,#jv .jv-st span,#jv .jv-card,#jv .jv-card h3,#jv .jv-card p{color:inherit}#jv .jv-st{color:var(--mut)}#jv .jv-st.jv-on{color:var(--ink)}
+#jv details.jv-jx{margin-top:18px}#jv summary{cursor:pointer;color:var(--hi);font-weight:700;padding:8px 0}
+#jv .jv-card h3{font-family:inherit}
+#jv .jv-sub{color:var(--mut);margin:0 0 18px}
+#jv .jv-band{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;margin:14px 0 14px;position:relative}
+#jv .jv-st{border:0;background:#fff;border:2px solid var(--line);border-radius:14px;padding:10px 4px 8px;text-align:center;cursor:pointer;font:inherit;color:var(--mut);transition:.2s}
+#jv .jv-st b{display:grid;place-items:center;width:30px;height:30px;margin:0 auto 6px;border-radius:50%;background:var(--line);color:var(--ink);font-size:.95rem}
+#jv .jv-st span{display:block;font-size:.72rem;line-height:1.15;min-height:2.3em}
+#jv .jv-st.jv-done b{background:var(--hi);color:#fff}
+#jv .jv-st.jv-done{border-color:var(--hi)}
+#jv .jv-st.jv-on{border-color:var(--ink);color:var(--ink);transform:translateY(-3px);box-shadow:0 6px 14px rgba(13,47,51,.15)}
+#jv .jv-st.jv-on b{background:var(--y);color:var(--ink)}
+#jv .jv-st.jv-key{border-color:var(--hi)}
+#jv .jv-st.jv-key.jv-on{border-color:var(--hi)}
+#jv .jv-card{background:var(--card);border-radius:20px;padding:26px 22px;border:2px solid var(--line);min-height:250px;display:flex;flex-direction:column}
+#jv .jv-card.jv-key{border-color:var(--hi);box-shadow:0 0 0 4px rgba(11,122,117,.12)}
+#jv .jv-n{font-size:.85rem;font-weight:700;background:var(--y);align-self:flex-start;padding:3px 12px;border-radius:99px}
+#jv .jv-tag{font-size:.8rem;font-weight:700;color:#fff;background:var(--hi);padding:3px 10px;border-radius:99px;margin-left:8px}
+#jv .jv-card h3{font-size:1.7rem;line-height:1.2;margin:14px 0 8px}
+#jv .jv-card p{font-size:1.1rem;line-height:1.5;margin:0 0 14px}
+#jv .jv-note{margin-top:auto;background:var(--warn);border-radius:12px;padding:10px 14px;font-size:.98rem}
+#jv .jv-ctl{display:flex;gap:8px;margin-top:12px}
+#jv .jv-ctl button{flex:1;border:2px solid var(--ink);background:#fff;border-radius:12px;padding:12px;font:inherit;font-weight:700;cursor:pointer}
+#jv .jv-ctl .jv-nx{background:var(--ink);color:#fff}
+#jv .jv-bar{height:4px;background:var(--line);border-radius:4px;margin-top:10px;overflow:hidden}
+#jv .jv-bar i{display:block;height:100%;width:0;background:var(--hi)}
+#jv summary{cursor:pointer;color:var(--hi);font-weight:700}
+#jv .jv-sub{color:var(--mut);margin:0 0 18px}#jv .jv-ctl{flex-wrap:wrap}
 
-    <p class="gw-map" data-i18n="gw_map">Prefer the full map? Here is every decision point:</p>
+#jv .jv-hd{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+#jv .jv-hd img{width:44px;height:44px;border-radius:10px;max-width:none;display:block}
+#jv .jv-hd b{font-size:1rem;letter-spacing:.03em;color:var(--ink)}
+#jv .jv-hd small{display:block;color:var(--mut);font-size:.7rem}
+#jv .jv-st svg{width:26px!important;height:26px!important;display:block;margin:0 auto 4px;stroke:currentColor!important;fill:none!important;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+#jv .jv-st.jv-on svg{stroke:var(--ink)!important}#jv .jv-st.jv-done svg{stroke:var(--hi)!important}
+#jv .jv-pic{position:relative;border-radius:14px;overflow:hidden;background:#e4f2f0;aspect-ratio:16/8;max-height:300px;margin:-6px 0 14px;display:grid;place-items:center}
+#jv .jv-pic img.jv-ph{width:100%;height:100%;object-fit:cover;max-width:none;display:block}
+#jv .jv-pic svg{width:46%!important;max-width:150px;height:auto!important;stroke:var(--hi)!important;fill:none!important;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+#jv .jv-pic img.jv-lg{position:absolute;right:8px;top:8px;width:34px;height:34px;max-width:none;border-radius:8px;border:2px solid #fff}
+#jv .jv-pic .jv-bd{position:absolute;left:8px;bottom:8px;background:var(--ink);color:#fff;font-size:.78rem;font-weight:700;padding:4px 10px;border-radius:99px}
+#jv .jv-pic .jv-bd.jv-g{background:var(--hi)}
+#jv .jv-st{display:block}#jv .jv-card h3{margin:14px 0 8px;font-size:1.7rem;line-height:1.2}
+#jv h2{font-size:1.6rem;line-height:1.2}
+@media(max-width:520px){#jv .jv-st span{font-size:.62rem}#jv .jv-card h3{font-size:1.45rem}}
+</style>
+<div id="jv"><div class="jv-hd"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAcFBQYFBAcGBgYIBwcICxILCwoKCxYPEA0SGhYbGhkWGRgcICgiHB4mHhgZIzAkJiorLS4tGyIyNTEsNSgsLSz/2wBDAQcICAsJCxULCxUsHRkdLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCz/wAARCAB4AHgDASIAAhEBAxEB/8QAGwABAQADAQEBAAAAAAAAAAAAAAEEBQYDBwL/xAA4EAACAgEDAgMFBAgHAAAAAAAAAQIDEQQFEgYhEzFBBzJRcZEUIjdyFRYjYaGxsrMkJ0JSgZLR/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAECAwQFB//EACMRAAICAQMEAwEAAAAAAAAAAAABAhEDEiFRBDEyQRNhoYH/2gAMAwEAAhEDEQA/AMkAHvHz8gAAKQoAAAAAwAAAAABgAAAeoAIUgAABQAG0vMHQdK9QaHYpap63QfbPG48e0XxxnPn8ysm0rSsvjjGUkpOlyc/lfENpeZ9N6sno9b7Ov0jptFXR43hyiuEVKKcvijI1Nuz9HdOaCc9sjqfGUU5KEXJy45bbZguotdtzvfQVJ3PZJO65PlOS5R9Rve0dV9Fa/XVbdHTSojPhLhFTjKKznK9Dl79bp7PZ9VpY7HdC2LTer8L7nve9y+L8sFo5tXr3Rlk6NQ312qtfZyxADc4igAAAAAgKAAAQAo9QTKfkCGfR92/BzS/kq/qMjq3RXb50Tt2p0EHeqlGxwh3bjxw8L9xj7r+Dmk/JV/Ucv091juHT37GvjqNK3l0zfl+V+hwxhJrVHumz3cuXHCSx5e0oLfg8NB1PuG17PqNqpjSqbnLnzg+S5LD9Tr5/gtH8i/un73zQ7X1b0rdvugq8HVUxcpPGG+PvRl8e3kz8Tf8AkvHH+xf3RKSlTSp3uRixzx64uVrQ6f0fOQAdx4gAIAUAAEBSAApCgGdskYy6g2+M0pReorTT7p/eR2HX3T+r1O8aee27ZOdSpxJ0Vds8n54OBi3GSlGTjJPKa80zqqfaNv8ATVGty09vFY5Tr7v54ZhkjPUpQO3Bkw/FLFltXW6N/v1Nuk9kmnovrlVbCNUZQksNPl5DrLZbNX03tn6N2/xbE4yn4Fazjh5vBx299U7p1BXCvWWwVUHyVdceKz8X8TK23rve9s0UNLXZTbVWuMPFhlpfDOUZLFkSTXezql1WCblGV6Wkr97HV9O6HU7d7Od1p1mns09jjdLjYsNrgu5jz/BaP5F/dOa3Xrbed30MtJfZVXTPtNVQ4uS+Gc+RjPqfXvpxbI40/ZEsZ4vl73Lzz8SVim93zYfV4UtEbpRa/pqACHWeQUAAAAAAAAEBQAAAAAMAAAEAKCAAoAAAAAAAAP1CErJqEIuUpPCS82WVNsK1ZOuUYNJptdmn5fXD+hK7JVWwsi8ShJSXzRtv1jsdnJ6WtJclFJ+6sriu+eyw18mysnJdkXgoPydGpdVqqVrrkq3/AKsdvX/x/Q/JsKd4tq0dVPhrNMZKuaeHHk3l/wAf+MHv+sMubl9jraffg3mK+S9PX6kXLglRxteX4atUWzr5xrk44byl27Yz/NfUW1WUWOu2EoTXnGSwzP0u92aadv8Ah67I22c3GTfaL84fJ/d/6o9KuoLYwaspVs+PGMnL3VxSf8s/MXLglRxteX4a3wLWm1XPtlPt5YWX9DzScpJJZbeMGwW72x1WouUOUb7I2zjKWe6ecZJqd0+06Z1OjjLioqbnmWE0+/bu+3mTcuCtQq1IxZaa+EXKVM4xWctx+Dw/49jzSbTaTaXd49DcLqOxzi5aaHGMlLCk0/Lv9Zfe+Z5X77bdTdUqlCu2LjxjLHFdnhfuyiqc+DRxxepfhqwAaGCAAAAyAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB6gAAAAAAAA//Z" alt="JSi"><div><b>JS INTERNATIONAL</b><small>WE KNOW WHAT YOU WANT</small></div></div>
+<h2 id="jv_h" style="margin:0 0 4px"></h2><p class="jv-sub" id="jv_sb"></p>
+<div class="jv-band" id="jv_band"></div><div class="jv-card" id="jv_card" aria-live="polite"></div><div class="jv-bar"><i id="jv_pb"></i></div>
+<div class="jv-ctl"><button type="button" id="jv_pv"></button><button type="button" id="jv_pp"></button><button type="button" class="jv-nx" id="jv_nx"></button></div>
+<details class="jv-jx" id="jv_map"><summary id="jv_sm"></summary>
+
 
     <div class="kk" id="kk" aria-live="polite">
       <div class="kk-head"><span class="kk-av">JS</span><span>JS INTERNATIONAL</span><span class="kk-prog" id="kkProg"></span></div>
@@ -1902,11 +1922,55 @@ table.rm-table td.total{ font-weight:800; color:#0e5a45; }
   var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
   if('IntersectionObserver' in window && !reduce){ var io=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting && idx<0){ io.disconnect(); play(); } }); },{threshold:0.25}); io.observe(document.getElementById('kk')); }
 })();
-</script>
+</script></details></div>
+<script>(function(){var P1="/img/cars/CF485920_01.jpg",P2="/img/cars/CF485920_07.jpg",P3="/img/cars/CF485920_03.jpg",LG="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAcFBQYFBAcGBgYIBwcICxILCwoKCxYPEA0SGhYbGhkWGRgcICgiHB4mHhgZIzAkJiorLS4tGyIyNTEsNSgsLSz/2wBDAQcICAsJCxULCxUsHRkdLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCz/wAARCAB4AHgDASIAAhEBAxEB/8QAGwABAQADAQEBAAAAAAAAAAAAAAEEBQYDBwL/xAA4EAACAgEDAgMFBAgHAAAAAAAAAQIDEQQFEgYhEzFBBzJRcZEUIjdyFRYjYaGxsrMkJ0JSgZLR/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAECAwQFB//EACMRAAICAQMEAwEAAAAAAAAAAAABAhEDEiFRBDEyQRNhoYH/2gAMAwEAAhEDEQA/AMkAHvHz8gAAKQoAAAAAwAAAAABgAAAeoAIUgAABQAG0vMHQdK9QaHYpap63QfbPG48e0XxxnPn8ysm0rSsvjjGUkpOlyc/lfENpeZ9N6sno9b7Ov0jptFXR43hyiuEVKKcvijI1Nuz9HdOaCc9sjqfGUU5KEXJy45bbZguotdtzvfQVJ3PZJO65PlOS5R9Rve0dV9Fa/XVbdHTSojPhLhFTjKKznK9Dl79bp7PZ9VpY7HdC2LTer8L7nve9y+L8sFo5tXr3Rlk6NQ312qtfZyxADc4igAAAAAgKAAAQAo9QTKfkCGfR92/BzS/kq/qMjq3RXb50Tt2p0EHeqlGxwh3bjxw8L9xj7r+Dmk/JV/Ucv091juHT37GvjqNK3l0zfl+V+hwxhJrVHumz3cuXHCSx5e0oLfg8NB1PuG17PqNqpjSqbnLnzg+S5LD9Tr5/gtH8i/un73zQ7X1b0rdvugq8HVUxcpPGG+PvRl8e3kz8Tf8AkvHH+xf3RKSlTSp3uRixzx64uVrQ6f0fOQAdx4gAIAUAAEBSAApCgGdskYy6g2+M0pReorTT7p/eR2HX3T+r1O8aee27ZOdSpxJ0Vds8n54OBi3GSlGTjJPKa80zqqfaNv8ATVGty09vFY5Tr7v54ZhkjPUpQO3Bkw/FLFltXW6N/v1Nuk9kmnovrlVbCNUZQksNPl5DrLZbNX03tn6N2/xbE4yn4Fazjh5vBx299U7p1BXCvWWwVUHyVdceKz8X8TK23rve9s0UNLXZTbVWuMPFhlpfDOUZLFkSTXezql1WCblGV6Wkr97HV9O6HU7d7Od1p1mns09jjdLjYsNrgu5jz/BaP5F/dOa3Xrbed30MtJfZVXTPtNVQ4uS+Gc+RjPqfXvpxbI40/ZEsZ4vl73Lzz8SVim93zYfV4UtEbpRa/pqACHWeQUAAAAAAAAEBQAAAAAMAAAEAKCAAoAAAAAAAAP1CErJqEIuUpPCS82WVNsK1ZOuUYNJptdmn5fXD+hK7JVWwsi8ShJSXzRtv1jsdnJ6WtJclFJ+6sriu+eyw18mysnJdkXgoPydGpdVqqVrrkq3/AKsdvX/x/Q/JsKd4tq0dVPhrNMZKuaeHHk3l/wAf+MHv+sMubl9jraffg3mK+S9PX6kXLglRxteX4atUWzr5xrk44byl27Yz/NfUW1WUWOu2EoTXnGSwzP0u92aadv8Ah67I22c3GTfaL84fJ/d/6o9KuoLYwaspVs+PGMnL3VxSf8s/MXLglRxteX4a3wLWm1XPtlPt5YWX9DzScpJJZbeMGwW72x1WouUOUb7I2zjKWe6ecZJqd0+06Z1OjjLioqbnmWE0+/bu+3mTcuCtQq1IxZaa+EXKVM4xWctx+Dw/49jzSbTaTaXd49DcLqOxzi5aaHGMlLCk0/Lv9Zfe+Z5X77bdTdUqlCu2LjxjLHFdnhfuyiqc+DRxxepfhqwAaGCAAAAyAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB6gAAAAAAAA//Z";
+var D={en:{h:"From picking a car to receiving it",sb:"6 simple steps. Tap a step or press Next.",sm:"See the full decision map",bk:"‹ Back",nx:"Next ›",pa:"Pause",pl:"Play",key:"Before you pay for the car",
+S:[["Pick a car","Tell us the model and budget, or choose from our stock. We send candidate lists with an Excel file.","Not happy with the list? We simply search again.","Pick"],
+["Get your quote","Send the Encar link of the car you like. We reply with one total in USD: car + ocean freight + local charges.","Price doesn't fit? You lose nothing. Pick another car.","Quote"],
+["Inspection first","An independent inspector checks the car BEFORE you buy. You pay only the actual inspection cost and get a full photo report.","Don't like the report? Stop here. No purchase, nothing more to pay.","Inspect"],
+["Plan and confirm","Use the loading calculator for containers or RoRo, then we verify the whole deal with you.","Anything off? We fix it before shipping.","Confirm"],
+["Shipping","We ship your car and send you the documents.","","Ship"],
+["Track and receive","Follow your car on its way and receive it at your port.","","Receive"]]},
+ko:{h:"차량 선택부터 수령까지",sb:"딱 6단계입니다. 단계를 누르거나 '다음'을 누르세요.",sm:"전체 판단 흐름도 보기",bk:"‹ 이전",nx:"다음 ›",pa:"멈춤",pl:"재생",key:"차량 대금 지불 전에",
+S:[["차량 선택","원하시는 모델과 예산을 알려주시거나 재고에서 고르세요. 엑셀이 첨부된 후보 리스트를 보내드립니다.","리스트가 마음에 안 드시면 다시 찾아드립니다.","선택"],
+["견적 받기","마음에 드는 차량의 엔카 링크를 보내주세요. 차량가 + 해상운임 + 현지비용을 합친 총 견적을 USD로 드립니다.","가격이 안 맞으면 부담 없이 다른 차량을 고르세요.","견적"],
+["검사 먼저","독립 검사기관이 구매 전에 차량을 먼저 점검합니다. 검사 실비만 부담하시고 사진 리포트를 받으십니다.","리포트가 마음에 안 드시면 여기서 중단. 구매도 추가 비용도 없습니다.","검사"],
+["계획·확인","적재 계산기로 컨테이너·로로 적재를 정하고, 거래 내용을 함께 최종 확인합니다.","어긋난 게 있으면 선적 전에 바로잡습니다.","확인"],
+["선적","차량을 선적하고 서류를 보내드립니다.","","선적"],
+["추적·수령","이동 중인 차량을 추적하고 도착 항구에서 수령하세요.","","수령"]]}};
 
-    </div>
 
-    </div>
+var IC=['<svg viewBox="0 0 32 32"><path d="M5 20l2-7a3 3 0 0 1 3-2h12a3 3 0 0 1 3 2l2 7M4 20h24v5H4zM9 25v2M23 25v2"/><circle cx="10" cy="22.5" r="1"/><circle cx="22" cy="22.5" r="1"/></svg>',
+'<svg viewBox="0 0 32 32"><path d="M8 4h12l5 5v19H8zM20 4v5h5M12 15h9M12 19h9"/><path d="M14 24h5"/></svg>',
+'<svg viewBox="0 0 32 32"><circle cx="14" cy="14" r="8"/><path d="M20 20l8 8M10.5 14l3 3 5-6"/></svg>',
+'<svg viewBox="0 0 32 32"><path d="M3 10l13-5 13 5v14l-13 4-13-4zM3 10l13 5 13-5M16 15v13"/></svg>',
+'<svg viewBox="0 0 32 32"><path d="M3 21l3 6h20l3-6zM7 21V12h18v9M12 12V7h8v5M16 3v4"/></svg>',
+'<svg viewBox="0 0 32 32"><path d="M16 29s9-8 9-15a9 9 0 0 0-18 0c0 7 9 15 9 15z"/><path d="M12.5 14l2.5 2.5 4.5-5"/></svg>'];
+
+var PIC=[['img',P1,'Encar listing, verified',''],['svg',IC[1],'One total price in USD',''],['img',P2,'Independent report with photos','g'],['svg',IC[3],'Loading plan + deal check',''],['svg',IC[4],'Shipped with documents',''],['img',P3,'Delivered to your port','g']];
+var L=((document.documentElement.getAttribute('lang')||'en')=='ko'?'ko':'en'),i=0,play=true,T=0,DUR=7000;
+var band=document.getElementById('jv_band'),card=document.getElementById('jv_card'),pb=document.getElementById('jv_pb');
+function r(){var d=D[L],S=d.S;band.innerHTML='';S.forEach(function(s,k){var b=document.createElement('button');b.className='jv-st'+(k<i?' jv-done':'')+(k==i?' jv-on':'')+(k==2?' jv-key':'');b.innerHTML=IC[k]+'<span>'+s[3]+'</span>';b.onclick=function(){i=k;r();rst()};band.appendChild(b)});
+var s=S[i];card.className='jv-card'+(i==2?' jv-key':'');var pc=PIC[i];var pic='<div class="jv-pic">'+(pc[0]=='img'?'<img class="jv-ph" src="'+pc[1]+'" alt="">':pc[1])+'<img class="jv-lg" src="'+LG+'" alt="JSi"><span class="jv-bd '+(pc[3]?'jv-'+pc[3]:'')+'">'+pc[2]+'</span></div>';card.innerHTML=pic+'<div><span class="jv-n">STEP '+(i+1)+' / 6</span>'+(i==2?'<span class="jv-tag">'+d.key+'</span>':'')+'</div><h3>'+s[0]+'</h3><p>'+s[1]+'</p>'+(s[2]?'<div class="jv-note">'+s[2]+'</div>':'');
+['h','sb','sm'].forEach(function(k){document.getElementById('jv_'+k).textContent=d[k]});document.getElementById('jv_pv').textContent=d.bk;document.getElementById('jv_nx').textContent=d.nx;document.getElementById('jv_pp').textContent=play?d.pa:d.pl}
+function rst(){clearTimeout(T);pb.style.transition='none';pb.style.width='0';if(!play)return;requestAnimationFrame(function(){requestAnimationFrame(function(){pb.style.transition='width '+DUR+'ms linear';pb.style.width='100%'})});T=setTimeout(function(){i=(i+1)%6;r();rst()},DUR)}
+document.getElementById('jv_nx').onclick=function(){i=(i+1)%6;r();rst()};document.getElementById('jv_pv').onclick=function(){i=(i+5)%6;r();rst()};
+document.getElementById('jv_pp').onclick=function(){play=!play;r();rst()};new MutationObserver(function(){var l=document.documentElement.getAttribute('lang')=='ko'?'ko':'en';if(l!=L){L=l;r()}}).observe(document.documentElement,{attributes:true,attributeFilter:['lang']});
+r();rst();
+})();</script>
+<div style="max-width:720px;margin:0 auto"><div class="acct-info" id="account-info">
+      <div class="acct-info-eyebrow" data-i18n="acct_eyebrow">Worried about wiring money?</div>
+      <h3 class="acct-info-h3" data-i18n="acct_h3">Our bank account details</h3>
+      <div class="acct-info-grid">
+        <div class="acct-info-row"><span class="acct-info-label" data-i18n="acct_bank_label">Bank</span><span class="acct-info-value">Hana Bank (하나은행)</span></div>
+        <div class="acct-info-row"><span class="acct-info-label" data-i18n="acct_holder_label">Account Holder</span><span class="acct-info-value">JUNG HAE SANG / JS INTERNATIONAL</span></div>
+        <div class="acct-info-row"><span class="acct-info-label" data-i18n="acct_biz_label">Business reg. no.</span><span class="acct-info-value mono">309-04-52024</span></div>
+        <div class="acct-info-row"><span class="acct-info-label" data-i18n="acct_addr_label">Address</span><span class="acct-info-value" data-i18n="val_addr">#203, 659 Jangje-ro, Gyeyang-gu, Incheon, South Korea</span></div>
+        <div class="acct-info-row"><span class="acct-info-label" data-i18n="acct_number_label">Account Number</span><span class="acct-info-value mono">311-910026-37338</span></div>
+        <div class="acct-info-row"><span class="acct-info-label" data-i18n="acct_swift_label">SWIFT BIC</span><span class="acct-info-value mono">KOEXKRSE</span></div>
+      </div>
+      <p class="acct-info-note" data-i18n="acct_note">We'll always confirm the exact amount and this account with you on WhatsApp before you transfer — never pay into a different account.</p>
+    </div></div>
   </div>
 </section>
 <!-- ============ FOR-SALE ============ -->
