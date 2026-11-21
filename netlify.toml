@@ -210,3 +210,57 @@
   from = "/car/js958102"
   to = "/stock/"
   status = 301
+
+[[redirects]]
+  from = "/car/cf481557"
+  to = "/stock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/car/cf479916"
+  to = "/stock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/car/cf505163"
+  to = "/stock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/car/cf500147"
+  to = "/stock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/car/cf509175"
+  to = "/stock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/car/cf504351"
+  to = "/stock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/car/cf459051"
+  to = "/stock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/car/cf492466"
+  to = "/stock/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/car/cf495670"
+  to = "/stock/"
+  status = 301
+  force = true
